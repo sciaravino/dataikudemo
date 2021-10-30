@@ -12,17 +12,17 @@
   "gpuAllowGrowth": false,
   "outputProbaPercentiles": false,
   "outputProbabilities": true,
-  "forceOriginalEngine": true,
+  "forceOriginalEngine": false,
   "individualExplanationParams": {
     "drawInScoredSet": false,
     "subChunkSize": 5000,
-    "method": "SHAPLEY",
+    "method": "ICE",
     "shapleyBackgroundSize": 100,
     "nbExplanations": 3
   },
   "forcedClassifierThreshold": 0,
   "batchSize": 100,
-  "outputExplanations": true,
+  "outputExplanations": false,
   "overrideModelSpecifiedThreshold": false,
   "sparkParams": {
     "pipelineAllowMerge": true,
