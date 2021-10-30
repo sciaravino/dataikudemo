@@ -147,6 +147,10 @@
           {
             "from": "ad_response",
             "to": "bundle"
+          },
+          {
+            "from": "bundle",
+            "to": "response"
           }
         ]
       },
@@ -165,25 +169,26 @@
     "loan": 100,
     "auto": 100,
     "education": 148,
-    "previous": 100,
     "housing": 100,
     "cons.price.idx": 120,
+    "default": 100,
+    "contact": 100,
+    "emp.var.rate": 105,
+    "bundle": 100,
+    "pdays": 100,
+    "day_of_week": 100,
+    "previous": 100,
     "ad_response": 100,
     "poutcome": 106,
     "euribor3m": 100,
     "home": 100,
     "marital": 100,
-    "default": 100,
     "month": 100,
-    "contact": 100,
+    "response": 100,
     "campaign": 100,
     "y": 100,
     "job": 106,
-    "emp.var.rate": 105,
-    "bundle": 100,
     "age": 100,
-    "pdays": 100,
-    "day_of_week": 100,
     "nr.employed": 100
   },
   "sorting": [],
