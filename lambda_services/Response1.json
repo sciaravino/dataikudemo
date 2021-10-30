@@ -31,7 +31,7 @@
             },
             "explanations": {
               "enabled": true,
-              "method": "ICE",
+              "method": "SHAP",
               "nExplanations": 3
             }
           }
