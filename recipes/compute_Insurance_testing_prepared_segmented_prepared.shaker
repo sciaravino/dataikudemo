@@ -26,8 +26,36 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": true,
+      "designTimeReport": {
+        "report": {
+          "unfoldedValues": [
+            "cluster_2",
+            "cluster_3",
+            "cluster_0",
+            "cluster_4",
+            "cluster_1",
+            "cluster_outliers"
+          ]
+        }
+      },
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "Unfold",
+      "params": {
+        "overflowAction": "ERROR",
+        "column": "cluster_labels",
+        "limit": 100
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -35,7 +63,26 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "cluster_labels": 148,
+    "auto": 100,
+    "education": 113,
+    "previous": 100,
+    "home": 100,
+    "cluster_3": 100,
+    "marital": 100,
+    "cluster_4": 100,
+    "cluster_1": 100,
+    "cluster_2": 100,
+    "month": 100,
+    "cluster_0": 100,
+    "cluster_outliers": 135,
+    "contact": 100,
+    "campaign": 100,
+    "job": 106,
+    "age": 100,
+    "day_of_week": 100
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
