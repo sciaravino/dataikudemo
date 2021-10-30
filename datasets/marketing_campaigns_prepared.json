@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1635627528854
+    "lastModifiedOn": 1635627581732
   },
   "creationTag": {
     "versionNumber": 0,
@@ -124,10 +124,6 @@
       },
       {
         "name": "campaign",
-        "type": "bigint"
-      },
-      {
-        "name": "pdays",
         "type": "bigint"
       },
       {
