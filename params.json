@@ -182,11 +182,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 11,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1635625610140
+    "lastModifiedOn": 1635625738154
   },
   "creationTag": {
     "versionNumber": 0,
@@ -208,8 +208,43 @@
         "items": [
           {
             "done": false,
-            "text": "Connect to data",
+            "text": "Connect to data in flow",
             "createdOn": 1635625573958,
+            "createdBy": "admin",
+            "stateChangedOn": 0
+          },
+          {
+            "done": false,
+            "text": "Visual Insights (Dashboards)",
+            "createdOn": 1635625674258,
+            "createdBy": "admin",
+            "stateChangedOn": 0
+          },
+          {
+            "done": false,
+            "text": "Visual Preparation",
+            "createdOn": 1635625723172,
+            "createdBy": "admin",
+            "stateChangedOn": 0
+          },
+          {
+            "done": false,
+            "text": "Model",
+            "createdOn": 1635625729883,
+            "createdBy": "admin",
+            "stateChangedOn": 0
+          },
+          {
+            "done": false,
+            "text": "Deploy",
+            "createdOn": 1635625734085,
+            "createdBy": "admin",
+            "stateChangedOn": 0
+          },
+          {
+            "done": false,
+            "text": "Bonus Features",
+            "createdOn": 1635625738065,
             "createdBy": "admin",
             "stateChangedOn": 0
           }
