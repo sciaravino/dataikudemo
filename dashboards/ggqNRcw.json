@@ -34,14 +34,14 @@
   ],
   "owner": "admin",
   "listed": true,
-  "name": "Insurance\u0027s default dashboard",
+  "name": "Existing Customers",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1635627839139
+    "lastModifiedOn": 1635627855933
   },
   "creationTag": {
     "versionNumber": 0,
