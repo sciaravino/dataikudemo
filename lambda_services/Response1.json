@@ -1,9 +1,10 @@
 {
+  "name": "Response1",
   "endpoints": [
     {
       "modelRef": "hBzKfxFU",
-      "useJava": true,
-      "outputExplanations": false,
+      "useJava": false,
+      "outputExplanations": true,
       "individualExplanationParams": {
         "method": "ICE",
         "nbExplanations": 3,
@@ -11,7 +12,26 @@
         "subChunkSize": 5000,
         "shapleyBackgroundSize": 100
       },
-      "testQueries": [],
+      "testQueries": [
+        {
+          "name": "Insurance_testing_prepared #1",
+          "q": {
+            "features": {
+              "age": 56,
+              "job": "housemaid",
+              "marital": "married",
+              "education": "basic",
+              "home": "no",
+              "auto": "no",
+              "contact": "app",
+              "month": "may",
+              "day_of_week": "mon",
+              "campaign": 1,
+              "previous": 0
+            }
+          }
+        }
+      ],
       "enrichMapping": [],
       "healthCheckQueries": [],
       "returnPostEnrichData": false,
