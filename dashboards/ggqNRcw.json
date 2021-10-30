@@ -9,7 +9,7 @@
             "box": {
               "top": 0,
               "left": 0,
-              "width": 5,
+              "width": 7,
               "height": 6
             },
             "clickAction": "OPEN_INSIGHT",
@@ -31,8 +31,8 @@
             "tileType": "INSIGHT",
             "box": {
               "top": 0,
-              "left": 5,
-              "width": 3,
+              "left": 7,
+              "width": 5,
               "height": 3
             },
             "clickAction": "OPEN_INSIGHT",
@@ -60,11 +60,11 @@
   "name": "Existing Customers",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 9,
+    "versionNumber": 10,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1635628295229
+    "lastModifiedOn": 1635628376842
   },
   "creationTag": {
     "versionNumber": 0,
