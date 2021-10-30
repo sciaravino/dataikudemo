@@ -11,6 +11,9 @@
           "map": {
             "marketing_campaigns": {
               "repartition": 10
+            },
+            "Insurance_testing": {
+              "repartition": 10
             }
           }
         },
@@ -72,11 +75,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1635629117946
+    "lastModifiedOn": 1635629245791
   },
   "creationTag": {
     "versionNumber": 0,

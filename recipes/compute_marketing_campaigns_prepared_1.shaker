@@ -41,11 +41,12 @@
           "emp.var.rate",
           "cons.conf.idx",
           "cons.price.idx",
-          "nr.employed",
           "poutcome",
-          "default",
           "euribor3m",
-          "pdays"
+          "pdays",
+          "default",
+          "duration",
+          "y"
         ],
         "keep": false,
         "appliesTo": "COLUMNS"
@@ -134,24 +135,12 @@
       "params": {
         "renamings": [
           {
-            "from": "y",
-            "to": "ad_response"
-          },
-          {
             "from": "housing",
             "to": "home"
           },
           {
             "from": "loan",
             "to": "auto"
-          },
-          {
-            "from": "ad_response",
-            "to": "bundle"
-          },
-          {
-            "from": "bundle",
-            "to": "response"
           }
         ]
       },
@@ -172,6 +161,7 @@
     "education": 148,
     "housing": 100,
     "cons.price.idx": 120,
+    "duration": 100,
     "default": 100,
     "contact": 100,
     "emp.var.rate": 105,
