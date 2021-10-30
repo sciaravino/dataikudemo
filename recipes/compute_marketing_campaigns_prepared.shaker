@@ -44,7 +44,8 @@
           "nr.employed",
           "poutcome",
           "default",
-          "euribor3m"
+          "euribor3m",
+          "pdays"
         ],
         "keep": false,
         "appliesTo": "COLUMNS"
