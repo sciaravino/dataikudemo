@@ -6,7 +6,7 @@
       "useJava": false,
       "outputExplanations": true,
       "individualExplanationParams": {
-        "method": "ICE",
+        "method": "SHAPLEY",
         "nbExplanations": 3,
         "drawInScoredSet": false,
         "subChunkSize": 5000,
@@ -31,8 +31,9 @@
             },
             "explanations": {
               "enabled": true,
-              "method": "SHAP",
-              "nExplanations": 3
+              "method": "SHAPLEY",
+              "nExplanations": 3,
+              "nMonteCarloSteps": 100
             }
           }
         }
