@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1635626432343
+    "lastModifiedOn": 1635627352338
   },
   "creationTag": {
     "versionNumber": 0,
@@ -103,15 +103,11 @@
         "type": "string"
       },
       {
-        "name": "default",
+        "name": "home",
         "type": "string"
       },
       {
-        "name": "housing",
-        "type": "string"
-      },
-      {
-        "name": "loan",
+        "name": "auto",
         "type": "string"
       },
       {
@@ -139,31 +135,7 @@
         "type": "bigint"
       },
       {
-        "name": "poutcome",
-        "type": "string"
-      },
-      {
-        "name": "emp.var.rate",
-        "type": "double"
-      },
-      {
-        "name": "cons.price.idx",
-        "type": "double"
-      },
-      {
-        "name": "cons.conf.idx",
-        "type": "double"
-      },
-      {
-        "name": "euribor3m",
-        "type": "double"
-      },
-      {
-        "name": "nr.employed",
-        "type": "double"
-      },
-      {
-        "name": "y",
+        "name": "bundle",
         "type": "boolean"
       }
     ],
