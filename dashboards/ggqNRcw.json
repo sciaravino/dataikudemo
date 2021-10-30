@@ -37,11 +37,11 @@
   "name": "Insurance\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1635627825165
+    "lastModifiedOn": 1635627839139
   },
   "creationTag": {
     "versionNumber": 0,
