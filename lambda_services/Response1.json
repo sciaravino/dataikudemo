@@ -28,6 +28,11 @@
               "day_of_week": "mon",
               "campaign": 1,
               "previous": 0
+            },
+            "explanations": {
+              "enabled": true,
+              "method": "ICE",
+              "nExplanations": 3
             }
           }
         }
