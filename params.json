@@ -126,6 +126,7 @@
   },
   "name": "Insurance",
   "projectStatus": "Sandbox",
+  "imgPattern": 7,
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -180,6 +181,13 @@
       "checks": []
     }
   },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1635624934422
+  },
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
@@ -187,6 +195,7 @@
     },
     "lastModifiedOn": 1635624873730
   },
+  "description": "# Project",
   "shortDesc": "The project *Insurance* was created by Salvatore Ciaravino on Oct 30th 2021",
   "tags": [],
   "customFields": {},
