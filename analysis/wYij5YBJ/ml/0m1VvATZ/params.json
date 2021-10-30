@@ -918,7 +918,7 @@
           }
         }
       },
-      "enabled": false
+      "enabled": true
     },
     "decision_tree_regression": {
       "max_depth": {
@@ -1896,7 +1896,13 @@
       "epsilon": 1.0E-6,
       "optimizer": "BFGS"
     },
-    "custom_python": [],
+    "custom_python": [
+      {
+        "enabled": true,
+        "code": "from sklearn.neural_network import MLPClassifier\n\nclf \u003d MLPClassifier(random_state\u003d1, max_iter\u003d300)",
+        "name": "MLPClassifier"
+      }
+    ],
     "plugin_python": {},
     "keras": {
       "epochs": 10,
