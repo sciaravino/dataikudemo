@@ -182,11 +182,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1635625007037
+    "lastModifiedOn": 1635625610140
   },
   "creationTag": {
     "versionNumber": 0,
@@ -195,41 +195,21 @@
     },
     "lastModifiedOn": 1635624873730
   },
-  "description": "",
+  "description": "# Digital Transformation\n\n### Prioritizing revenue growth through customer engagement\n\nDifferent channels:\n  - mobile\n  - website\n  \n  \n  General context :\n* MyInsuranceCo is a traditional InsuranceCo (think AXA, Allstate, State Farm)\n* They are going through a Digital Transformation in their organization and are prioritizing revenue growth through engaging their existing customers and prospects through different channels (ie. mobile app and website) and moving to the cloud (AWS). \n* Started a Data Science practice 2 years ago, 30 people currently - almost all Data Scientist/Statistician/actuarial personas.\n* The Chief DS owns the team. The lines of Business / project manager are the liaisons with the business. Looking for more collaboration across the lines of Business. Marketing is a prioritized line of business given their target focus\n* Many successful prototypes models, but currently only a few projects being deployed\n* IT is recoding everything and it’s taking too long to actually deliver (6 to 9 months).",
   "shortDesc": "The project *Insurance* was created by Salvatore Ciaravino on Oct 30th 2021",
   "tags": [],
   "customFields": {},
   "checklists": {
     "checklists": [
       {
-        "title": "Your new project\u0027s Todo",
+        "id": "9509e8",
+        "title": "Todo list",
         "createdOn": 0,
         "items": [
           {
-            "done": true,
-            "text": "Create the project",
-            "createdOn": 1635624873731,
-            "createdBy": "admin",
-            "stateChangedOn": 0
-          },
-          {
             "done": false,
-            "text": "Set a project image (click on the color next to the project title)",
-            "createdOn": 1635624873731,
-            "createdBy": "admin",
-            "stateChangedOn": 0
-          },
-          {
-            "done": false,
-            "text": "Import your [first dataset](projects/INSURANCE/datasets/new/)",
-            "createdOn": 1635624873731,
-            "createdBy": "admin",
-            "stateChangedOn": 0
-          },
-          {
-            "done": false,
-            "text": "Organize your work by replacing this with a real todo",
-            "createdOn": 1635624873731,
+            "text": "Connect to data",
+            "createdOn": 1635625573958,
             "createdBy": "admin",
             "stateChangedOn": 0
           }
