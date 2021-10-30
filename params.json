@@ -182,11 +182,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1635624934422
+    "lastModifiedOn": 1635625007037
   },
   "creationTag": {
     "versionNumber": 0,
@@ -195,7 +195,7 @@
     },
     "lastModifiedOn": 1635624873730
   },
-  "description": "# Project",
+  "description": "",
   "shortDesc": "The project *Insurance* was created by Salvatore Ciaravino on Oct 30th 2021",
   "tags": [],
   "customFields": {},
