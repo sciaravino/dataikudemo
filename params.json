@@ -126,6 +126,7 @@
   },
   "name": "Insurance",
   "projectStatus": "Sandbox",
+  "imgColor": "#0f786b",
   "imgPattern": 7,
   "metrics": {
     "probes": [],
@@ -182,11 +183,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 11,
+    "versionNumber": 12,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1635625738154
+    "lastModifiedOn": 1635626125152
   },
   "creationTag": {
     "versionNumber": 0,
