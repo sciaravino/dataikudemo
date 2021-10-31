@@ -11,11 +11,11 @@ $.getJSON(getWebAppBackendUrl('send_data'),function(data){
     d3.select("#totalCustomers").html(totalCustomers);
     
     // Total page views
-    totalInteractions = d3.sum(data, d => d.pages_visited);
-    d3.select("#pageViews").html(f(pageViews));
+    totalInteractions = d3.sum(data, d => d.campaigns);
+    d3.select("#totalInteractions").html(f(totalInteractions));
     
     // Average customer lifetime value
-    averageCLV = d3.mean(data, d => d.prediction).toFixed(1);
-    d3.select("#customerLV").html(averageCLV);
+    averageAge = d3.mean(data, d => d.Age).toFixed(1);
+    d3.select("#averageAge").html(averageAge);
     
 })

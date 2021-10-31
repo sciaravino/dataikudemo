@@ -1,3 +1,46 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 <script src="https://d3js.org/d3.v6.js"></script>
+    
+<div class="container m-5">
+    <div class="row">
+        <div class="col-2 text-uppercase">
+            <span class="fs-1 metric-number" id="totalCustomers"></span><br/> Number of customers
+        </div>
+        <div class="col-2 text-uppercase">
+            <span class="fs-1 metric-number" id="totalInteractions"></span><br/> Total previous interactions
+        </div>
+        <div class="col-2 text-uppercase">
+            <span class="fs-1 metric-number" id="averageAge"></span><br/> Average customer age
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 mb-3">
+            <strong>Filter charts*</strong>
+            <div class="p-1 rounded border text-center top-wrapper">
+                <span id="top5" class="p-1 rounded filter-btn">Top 5</span>
+                <span id="top10" class="p-1 rounded filter-btn">Top 10</span>
+                <span id="top20" class="p-1 rounded filter-btn">Top 20</span>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="text-decoration-underline col-4" id="pages">
+            <h4>Count of page views</h4>
+        </div>
+        <div class="text-decoration-underline col-4" id="predictions">
+            <h4>Average Customer Lifetime Value</h4>
+        </div>
+    </div>
+    <div class="col-sm-12">
+        *countries by number of page views
+    </div>
+</div>
+
+<!-- Note on the Bootstrap classes we are using:
+m-X: gives a relative margin
+p-X: gives a relative padding
+fs-X: gives a relative font size
+text-X: will operate transformations on your text
+rounded: will give a border with rounded corners
+-->
