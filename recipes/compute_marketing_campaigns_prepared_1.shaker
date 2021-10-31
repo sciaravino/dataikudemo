@@ -188,6 +188,26 @@
         "matching": "FULL_STRING"
       },
       "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FilterOnValue",
+      "params": {
+        "normalizationMode": "EXACT",
+        "booleanMode": "AND",
+        "columns": [
+          "previous_response"
+        ],
+        "values": [
+          "0"
+        ],
+        "matchingMode": "FULL_STRING",
+        "action": "KEEP_ROW",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
     }
   ],
   "maxProcessedMemTableBytes": -1,
