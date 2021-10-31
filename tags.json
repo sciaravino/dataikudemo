@@ -1,6 +1,7 @@
 {
   "tags": {
     "origin:sql_import": {},
-    "postgres": {}
+    "postgres": {},
+    "recipe-editor": {}
   }
 }
