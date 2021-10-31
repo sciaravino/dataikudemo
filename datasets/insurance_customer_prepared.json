@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1635703512143
+    "lastModifiedOn": 1635704238125
   },
   "creationTag": {
     "versionNumber": 0,
@@ -107,6 +107,10 @@
         "type": "string"
       },
       {
+        "name": "bad_credit",
+        "type": "boolean"
+      },
+      {
         "name": "home",
         "type": "string"
       },
@@ -135,11 +139,39 @@
         "type": "bigint"
       },
       {
+        "name": "pdays",
+        "type": "bigint"
+      },
+      {
         "name": "previous",
         "type": "bigint"
       },
       {
-        "name": "response",
+        "name": "poutcome",
+        "type": "string"
+      },
+      {
+        "name": "emp.var.rate",
+        "type": "double"
+      },
+      {
+        "name": "cons.price.idx",
+        "type": "double"
+      },
+      {
+        "name": "cons.conf.idx",
+        "type": "double"
+      },
+      {
+        "name": "euribor3m",
+        "type": "double"
+      },
+      {
+        "name": "nr.employed",
+        "type": "bigint"
+      },
+      {
+        "name": "ad_response",
         "type": "boolean"
       }
     ],
