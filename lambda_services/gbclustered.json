@@ -1,17 +1,55 @@
 {
+  "name": "gbclustered",
   "endpoints": [
     {
       "modelRef": "Ryg8hDmX",
-      "useJava": true,
-      "outputExplanations": false,
+      "useJava": false,
+      "outputExplanations": true,
       "individualExplanationParams": {
-        "method": "ICE",
-        "nbExplanations": 3,
+        "method": "SHAPLEY",
+        "nbExplanations": 5,
         "drawInScoredSet": false,
         "subChunkSize": 5000,
         "shapleyBackgroundSize": 100
       },
-      "testQueries": [],
+      "testQueries": [
+        {
+          "name": "insurance_customer_clustered_scored #1",
+          "q": {
+            "features": {
+              "id": 10001,
+              "age": 56,
+              "job": "housemaid",
+              "marital": "married",
+              "education": "basic",
+              "bad_credit": false,
+              "home": false,
+              "auto": false,
+              "contact": "mobile app",
+              "month": "may",
+              "day_of_week": "mon",
+              "duration": 261,
+              "campaign": 1,
+              "pdays": 0,
+              "previous": 0,
+              "poutcome": "nonexistent",
+              "emp.var.rate": 1.1,
+              "cons.price.idx": 93.994,
+              "cons.conf.idx": -36.4,
+              "euribor3m": 4.857,
+              "nr.employed": 5191,
+              "ad_response": false,
+              "cluster_labels": "aging_low_credit"
+            },
+            "explanations": {
+              "enabled": true,
+              "method": "SHAPLEY",
+              "nExplanations": 5,
+              "nMonteCarloSteps": 100
+            }
+          }
+        }
+      ],
       "enrichMapping": [],
       "healthCheckQueries": [],
       "returnPostEnrichData": false,
