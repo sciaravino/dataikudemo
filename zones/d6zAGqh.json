@@ -93,10 +93,6 @@
     {
       "objectId": "kQkqkAzl",
       "objectType": "SAVED_MODEL"
-    },
-    {
-      "objectId": "insurance_id",
-      "objectType": "DATASET"
     }
   ],
   "shared": [],
