@@ -1,0 +1,108 @@
+{
+  "type": "eda",
+  "params": {
+    "card": {
+      "type": "correlation_matrix",
+      "heatmapParams": {
+        "showValues": true,
+        "showColors": true,
+        "showAbsValues": false,
+        "threshold": 0.0,
+        "filterVariablesWithoutValues": false
+      },
+      "metric": "PEARSON",
+      "columns": [
+        {
+          "name": "age",
+          "type": "CONTINUOUS"
+        },
+        {
+          "name": "duration",
+          "type": "CONTINUOUS"
+        },
+        {
+          "name": "campaign",
+          "type": "CONTINUOUS"
+        },
+        {
+          "name": "pdays",
+          "type": "CONTINUOUS"
+        },
+        {
+          "name": "previous",
+          "type": "CONTINUOUS"
+        },
+        {
+          "name": "emp.var.rate",
+          "type": "CONTINUOUS"
+        },
+        {
+          "name": "cons.price.idx",
+          "type": "CONTINUOUS"
+        },
+        {
+          "name": "cons.conf.idx",
+          "type": "CONTINUOUS"
+        },
+        {
+          "name": "euribor3m",
+          "type": "CONTINUOUS"
+        },
+        {
+          "name": "nr.employed",
+          "type": "CONTINUOUS"
+        }
+      ],
+      "id": "BOzqJUG"
+    },
+    "dataSpec": {
+      "inputDatasetSmartName": "insurance_customer_prepared",
+      "datasetSelection": {
+        "useMemTable": false,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "maxRecords": 100000,
+        "targetRatio": 0.02,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
+      "autoRefreshSample": true,
+      "refreshTrigger": 0,
+      "containerSelection": {
+        "containerMode": "INHERIT"
+      }
+    }
+  },
+  "owner": "admin",
+  "listed": true,
+  "name": "Correlation matrix on 10 variables  (Pearson)",
+  "dashboardCreationId": "ggqNRcw",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1635714227025
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1635714227025
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
