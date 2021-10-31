@@ -9,10 +9,7 @@ mydataset = dataiku.Dataset("website_topn")
 df = mydataset.get_dataframe()
 
 # Group df by ip_country, aggregated by sum of pages visited and average of prediction
-df = df.groupby("ip_country_code").agg({"pages_visited":"sum","prediction":"mean"}).reset_index()
-
-# Sort values by number of pages visited
-df = df.sort_values("pages_visited", ascending=False)
+df = df.groupby("education")
 
 # Print statement available in the "Log" tab
 print(df)
