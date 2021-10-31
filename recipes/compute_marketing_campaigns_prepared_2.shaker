@@ -3,14 +3,14 @@
     "mode": "ALL"
   },
   "explorationSampling": {
-    "_refreshTrigger": 0,
+    "_refreshTrigger": 1,
     "selection": {
       "filter": {
         "distinct": false,
         "enabled": false
       },
       "latestPartitionsN": 1,
-      "maxRecords": 10000,
+      "maxRecords": 100000,
       "ordering": {
         "rules": [],
         "enabled": false
@@ -31,27 +31,6 @@
     "autoRefresh": true
   },
   "steps": [
-    {
-      "preview": false,
-      "metaType": "PROCESSOR",
-      "disabled": false,
-      "type": "ColumnsSelector",
-      "params": {
-        "columns": [
-          "emp.var.rate",
-          "cons.conf.idx",
-          "cons.price.idx",
-          "nr.employed",
-          "poutcome",
-          "default",
-          "euribor3m",
-          "pdays"
-        ],
-        "keep": false,
-        "appliesTo": "COLUMNS"
-      },
-      "alwaysShowComment": false
-    },
     {
       "preview": false,
       "metaType": "PROCESSOR",
@@ -144,16 +123,106 @@
           {
             "from": "loan",
             "to": "auto"
-          },
-          {
-            "from": "ad_response",
-            "to": "bundle"
-          },
-          {
-            "from": "bundle",
-            "to": "response"
           }
         ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnReorder",
+      "params": {
+        "columns": [
+          "ad_response"
+        ],
+        "reorderAction": "AT_END",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FindReplace",
+      "params": {
+        "output": "",
+        "mapping": [
+          {
+            "from": "unknown",
+            "to": "no"
+          }
+        ],
+        "normalization": "EXACT",
+        "columns": [
+          "home"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "stopAfterFirstMatch": false,
+        "matching": "FULL_STRING"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FindReplace",
+      "params": {
+        "output": "",
+        "mapping": [
+          {
+            "from": "unknown",
+            "to": "no"
+          }
+        ],
+        "normalization": "EXACT",
+        "columns": [
+          "auto"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "stopAfterFirstMatch": false,
+        "matching": "FULL_STRING"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "default",
+            "to": "bad_credit"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FindReplace",
+      "params": {
+        "output": "",
+        "mapping": [
+          {
+            "from": "unknown",
+            "to": "yes"
+          }
+        ],
+        "normalization": "EXACT",
+        "columns": [
+          "bad_credit"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "stopAfterFirstMatch": false,
+        "matching": "FULL_STRING"
       },
       "alwaysShowComment": false
     }
@@ -181,6 +250,7 @@
     "pdays": 100,
     "day_of_week": 100,
     "previous": 100,
+    "bad_credit": 100,
     "ad_response": 100,
     "poutcome": 106,
     "euribor3m": 100,
