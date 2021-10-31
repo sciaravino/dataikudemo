@@ -4,7 +4,7 @@
 }
 
 .metric-number {
-    box-shadow: 0px -10px 0px 0px inset var(--p-light);
+    box-shadow: 10px -10px 10px 10px inset var(--p-light);
 }
 
 .top-wrapper {
