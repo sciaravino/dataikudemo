@@ -10,7 +10,7 @@
               "top": 0,
               "left": 0,
               "width": 7,
-              "height": 6
+              "height": 5
             },
             "clickAction": "OPEN_INSIGHT",
             "tileParams": {
@@ -60,11 +60,11 @@
   "name": "Existing Customers",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 11,
+    "versionNumber": 12,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1635713988168
+    "lastModifiedOn": 1635713997269
   },
   "creationTag": {
     "versionNumber": 0,
