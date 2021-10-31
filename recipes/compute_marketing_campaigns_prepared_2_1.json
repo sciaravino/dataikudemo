@@ -14,6 +14,9 @@
             },
             "insurance_customer_demog_joined": {
               "repartition": 10
+            },
+            "insurance_id": {
+              "repartition": 10
             }
           }
         },
@@ -75,11 +78,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1635717213712
+    "lastModifiedOn": 1635717238946
   },
   "creationTag": {
     "versionNumber": 0,
