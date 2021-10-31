@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1635652583229
+    "lastModifiedOn": 1635652651592
   },
   "creationTag": {
     "versionNumber": 0,
@@ -85,7 +85,64 @@
     }
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "age",
+        "type": "bigint"
+      },
+      {
+        "name": "job",
+        "type": "string"
+      },
+      {
+        "name": "marital",
+        "type": "string"
+      },
+      {
+        "name": "education",
+        "type": "string"
+      },
+      {
+        "name": "home",
+        "type": "string"
+      },
+      {
+        "name": "auto",
+        "type": "string"
+      },
+      {
+        "name": "contact",
+        "type": "string"
+      },
+      {
+        "name": "month",
+        "type": "string"
+      },
+      {
+        "name": "day_of_week",
+        "type": "string"
+      },
+      {
+        "name": "campaign",
+        "type": "bigint"
+      },
+      {
+        "name": "previous",
+        "type": "bigint"
+      },
+      {
+        "name": "proba_no",
+        "type": "double"
+      },
+      {
+        "name": "proba_yes",
+        "type": "double"
+      },
+      {
+        "name": "prediction",
+        "type": "string"
+      }
+    ],
     "userModified": true
   },
   "dkuProperties": [],
