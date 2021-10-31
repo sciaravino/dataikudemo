@@ -9,7 +9,7 @@
             "box": {
               "top": 0,
               "left": 0,
-              "width": 7,
+              "width": 6,
               "height": 5
             },
             "clickAction": "OPEN_INSIGHT",
@@ -31,9 +31,9 @@
             "tileType": "INSIGHT",
             "box": {
               "top": 0,
-              "left": 7,
-              "width": 5,
-              "height": 3
+              "left": 6,
+              "width": 6,
+              "height": 2
             },
             "clickAction": "OPEN_INSIGHT",
             "tileParams": {
@@ -53,10 +53,10 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": -1,
-              "left": -1,
-              "width": 10,
-              "height": 5
+              "top": 2,
+              "left": 6,
+              "width": 6,
+              "height": 3
             },
             "clickAction": "OPEN_INSIGHT",
             "tileParams": {},
@@ -77,11 +77,11 @@
   "name": "Existing Customers",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 14,
+    "versionNumber": 15,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1635714227334
+    "lastModifiedOn": 1635714276550
   },
   "creationTag": {
     "versionNumber": 0,
