@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1635702071467
+    "lastModifiedOn": 1635702335826
   },
   "creationTag": {
     "versionNumber": 0,
@@ -152,6 +152,26 @@
       },
       {
         "name": "y",
+        "type": "string"
+      },
+      {
+        "name": "emp.var.rate",
+        "type": "string"
+      },
+      {
+        "name": "cons.price.idx",
+        "type": "string"
+      },
+      {
+        "name": "cons.conf.idx",
+        "type": "string"
+      },
+      {
+        "name": "euribor3m",
+        "type": "string"
+      },
+      {
+        "name": "nr.employed",
         "type": "string"
       }
     ],
