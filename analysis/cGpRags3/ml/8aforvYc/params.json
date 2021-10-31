@@ -591,7 +591,7 @@
         "behavior": "DISABLED"
       },
       "polynomial_combinations": {
-        "behavior": "DISABLED"
+        "behavior": "ENABLED_MANUAL"
       },
       "manual_interactions": {
         "interactions": []
@@ -2173,9 +2173,9 @@
       "customEvaluationMetricNeedsProba": false,
       "thresholdOptimizationMetric": "F1",
       "costMatrixWeights": {
-        "tpGain": 1.0,
+        "tpGain": 100.0,
         "tnGain": 0.0,
-        "fpGain": -0.3,
+        "fpGain": -1.0,
         "fnGain": 0.0
       },
       "liftPoint": 0.4
