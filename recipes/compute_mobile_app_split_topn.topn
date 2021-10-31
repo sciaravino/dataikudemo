@@ -1,0 +1,78 @@
+{
+  "preFilter": {
+    "distinct": false,
+    "enabled": false
+  },
+  "firstRows": 1,
+  "keys": [],
+  "computedColumns": [],
+  "retrievedColumns": [
+    "id",
+    "age",
+    "job",
+    "marital",
+    "education",
+    "bad_credit",
+    "home",
+    "auto",
+    "contact",
+    "month",
+    "day_of_week",
+    "duration",
+    "campaign",
+    "pdays",
+    "previous",
+    "poutcome",
+    "emp.var.rate",
+    "cons.price.idx",
+    "cons.conf.idx",
+    "euribor3m",
+    "nr.employed",
+    "ad_response",
+    "cluster_labels",
+    "proba_no",
+    "proba_yes",
+    "prediction"
+  ],
+  "lastRows": 0,
+  "duplicateCount": false,
+  "engineParams": {
+    "hive": {
+      "skipPrerunValidate": false,
+      "hiveconf": [],
+      "inheritConf": "default",
+      "addDkuUdf": false,
+      "executionEngine": "HIVESERVER2"
+    },
+    "sqlPipelineParams": {
+      "pipelineAllowMerge": true,
+      "pipelineAllowStart": true
+    },
+    "impala": {
+      "forceStreamMode": true
+    },
+    "lowerCaseSchemaIfEngineRequiresIt": true,
+    "sparkSQL": {
+      "skipPrerunValidate": false,
+      "pipelineAllowMerge": true,
+      "useGlobalMetastore": false,
+      "pipelineAllowStart": true,
+      "readParams": {
+        "mode": "AUTO",
+        "autoModeRepartitionInto": 10,
+        "map": {}
+      },
+      "overwriteOutputSchema": false,
+      "executionEngine": "SPARK_SUBMIT",
+      "sparkConfig": {
+        "inheritConf": "default",
+        "conf": []
+      }
+    }
+  },
+  "rank": false,
+  "denseRank": false,
+  "orders": [],
+  "rowNumber": false,
+  "outputColumnNameOverrides": {}
+}
