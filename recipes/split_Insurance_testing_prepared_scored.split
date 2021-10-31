@@ -3,37 +3,40 @@
   "centileSplits": [
     {
       "outputIndex": 0,
-      "share": 50.0
+      "share": 50
     }
   ],
-  "defaultOutputIndex": 1,
   "preFilter": {
     "distinct": false,
     "enabled": false
   },
+  "defaultOutputIndex": 1,
   "seed": 1337,
   "randomColumns": [],
   "centileOrders": [],
   "rangeSetTime": false,
+  "column": "contact",
   "randomSplits": [
     {
       "outputIndex": 0,
-      "share": 50.0
+      "share": 50
     }
   ],
   "randomColumnsSplits": [
     {
       "outputIndex": 0,
-      "share": 50.0
+      "share": 50
     }
   ],
   "computedColumns": [],
   "writeComputedColumnsInOutput": false,
+  "mode": "VALUES",
   "centileTDigest": false,
   "valueSplits": [
     {
       "outputIndex": 0,
-      "caseSensitive": false
+      "caseSensitive": false,
+      "value": "website"
     }
   ],
   "rangeSplits": [
@@ -89,6 +92,68 @@
         "uiData": {
           "mode": "\u0026\u0026",
           "conditions": []
+        },
+        "$status": {
+          "schema": {
+            "columns": [
+              {
+                "name": "age",
+                "type": "bigint"
+              },
+              {
+                "name": "job",
+                "type": "string"
+              },
+              {
+                "name": "marital",
+                "type": "string"
+              },
+              {
+                "name": "education",
+                "type": "string"
+              },
+              {
+                "name": "home",
+                "type": "string"
+              },
+              {
+                "name": "auto",
+                "type": "string"
+              },
+              {
+                "name": "contact",
+                "type": "string"
+              },
+              {
+                "name": "month",
+                "type": "string"
+              },
+              {
+                "name": "day_of_week",
+                "type": "string"
+              },
+              {
+                "name": "campaign",
+                "type": "bigint"
+              },
+              {
+                "name": "previous",
+                "type": "bigint"
+              },
+              {
+                "name": "proba_no",
+                "type": "double"
+              },
+              {
+                "name": "proba_yes",
+                "type": "double"
+              },
+              {
+                "name": "prediction",
+                "type": "string"
+              }
+            ]
+          }
         },
         "distinct": false,
         "enabled": true
