@@ -19,6 +19,10 @@
         {
           "ref": "insurance_customer_details",
           "deps": []
+        },
+        {
+          "ref": "insurance_customer_economic",
+          "deps": []
         }
       ]
     }
@@ -35,11 +39,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1635702071536
+    "lastModifiedOn": 1635702335894
   },
   "creationTag": {
     "versionNumber": 0,

@@ -25,6 +25,33 @@
           "strict": false
         }
       ]
+    },
+    {
+      "table2": 2,
+      "table1": 0,
+      "conditionsMode": "AND",
+      "rightLimit": {},
+      "type": "LEFT",
+      "outerJoinOnTheLeft": true,
+      "on": [
+        {
+          "column1": {
+            "name": "id",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "id",
+            "table": 2
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        }
+      ]
     }
   ],
   "selectedColumns": [
@@ -112,6 +139,31 @@
       "name": "y",
       "type": "string",
       "table": 1
+    },
+    {
+      "name": "emp.var.rate",
+      "type": "string",
+      "table": 2
+    },
+    {
+      "name": "cons.price.idx",
+      "type": "string",
+      "table": 2
+    },
+    {
+      "name": "cons.conf.idx",
+      "type": "string",
+      "table": 2
+    },
+    {
+      "name": "euribor3m",
+      "type": "string",
+      "table": 2
+    },
+    {
+      "name": "nr.employed",
+      "type": "string",
+      "table": 2
     }
   ],
   "engineParams": {
@@ -166,6 +218,9 @@
       "autoSelectColumns": false,
       "index": 1,
       "computedColumns": []
+    },
+    {
+      "index": 2
     }
   ],
   "computedColumns": [],
@@ -239,6 +294,26 @@
           },
           {
             "name": "y",
+            "type": "string"
+          },
+          {
+            "name": "emp.var.rate",
+            "type": "string"
+          },
+          {
+            "name": "cons.price.idx",
+            "type": "string"
+          },
+          {
+            "name": "cons.conf.idx",
+            "type": "string"
+          },
+          {
+            "name": "euribor3m",
+            "type": "string"
+          },
+          {
+            "name": "nr.employed",
             "type": "string"
           }
         ],
