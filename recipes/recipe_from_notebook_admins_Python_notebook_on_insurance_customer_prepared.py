@@ -23,4 +23,4 @@ pdu.audit(df)
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # Recipe outputs
 insurance_customer_modeling = dataiku.Dataset("insurance_customer_modeling")
-insurance_customer_modeling.write_with_schema(pandas_dataframe)
+insurance_customer_modeling.write_with_schema(df)
