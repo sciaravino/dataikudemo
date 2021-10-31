@@ -225,6 +225,29 @@
         "matching": "FULL_STRING"
       },
       "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FindReplace",
+      "params": {
+        "output": "",
+        "mapping": [
+          {
+            "from": "999",
+            "to": "0"
+          }
+        ],
+        "normalization": "EXACT",
+        "columns": [
+          "pdays"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "stopAfterFirstMatch": false,
+        "matching": "FULL_STRING"
+      },
+      "alwaysShowComment": false
     }
   ],
   "maxProcessedMemTableBytes": -1,
@@ -251,6 +274,7 @@
     "day_of_week": 100,
     "previous": 100,
     "bad_credit": 100,
+    "newcolumn_expression": 165,
     "ad_response": 100,
     "poutcome": 106,
     "euribor3m": 100,
