@@ -15,7 +15,7 @@ $.getJSON(getWebAppBackendUrl('send_data'),function(data){
     d3.select("#totalInteractions").html(f(totalInteractions));
     
     // Average customer lifetime value
-    averageAge = d3.mean(data, d => d.Age).toFixed(1);
+    averageAge = d3.mean(data, d => d.age).toFixed(1);
     d3.select("#averageAge").html(averageAge);
     
 })
