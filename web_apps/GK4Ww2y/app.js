@@ -11,7 +11,7 @@ $.getJSON(getWebAppBackendUrl('send_data'),function(data){
     d3.select("#totalCustomers").html(totalCustomers);
     
     // Total page views
-    totalInteractions = d3.sum(data, d => d.campaigns);
+    totalInteractions = d3.sum(data, d => d.campaign);
     d3.select("#totalInteractions").html(f(totalInteractions));
     
     // Average customer lifetime value
