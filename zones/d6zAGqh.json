@@ -1,7 +1,100 @@
 {
   "name": "practice",
   "color": "#8C2DA7",
-  "items": [],
+  "items": [
+    {
+      "objectId": "marketing_campaigns",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "Insurance_testing",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_Insurance_testing_prepared_segmented_prepared",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "Insurance_testing_prepared_segmented_prepared",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "Insurance_testing_prepared_segmented",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_marketing_campaigns_prepared",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "marketing_campaigns_prepared",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "train_Clustering__KMEANS__on_marketing_campaigns_prepared",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "train_Predict_Response",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_marketing_campaigns_prepared_1",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "Insurance_testing_prepared",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "score_Insurance_testing_prepared",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "score_Insurance_testing_prepared_1",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_mobile_app_topn",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "mobile_app_topn",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "mobile_app",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_mobile_app_topn_1",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "website_topn",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "website",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "Insurance_testing_prepared_scored",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "hBzKfxFU",
+      "objectType": "SAVED_MODEL"
+    },
+    {
+      "objectId": "split_Insurance_testing_prepared_scored",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "kQkqkAzl",
+      "objectType": "SAVED_MODEL"
+    }
+  ],
   "shared": [],
   "tags": [],
   "customFields": {},
