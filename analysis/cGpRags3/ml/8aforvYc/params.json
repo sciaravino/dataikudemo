@@ -591,7 +591,7 @@
         "behavior": "DISABLED"
       },
       "polynomial_combinations": {
-        "behavior": "ENABLED_MANUAL"
+        "behavior": "DISABLED"
       },
       "manual_interactions": {
         "interactions": []
