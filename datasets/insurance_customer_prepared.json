@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1635703501198
+    "lastModifiedOn": 1635703512143
   },
   "creationTag": {
     "versionNumber": 0,
@@ -86,6 +86,10 @@
   },
   "schema": {
     "columns": [
+      {
+        "name": "id",
+        "type": "bigint"
+      },
       {
         "name": "age",
         "type": "bigint"
@@ -121,6 +125,10 @@
       {
         "name": "day_of_week",
         "type": "string"
+      },
+      {
+        "name": "duration",
+        "type": "bigint"
       },
       {
         "name": "campaign",
