@@ -3,14 +3,14 @@
     "mode": "ALL"
   },
   "explorationSampling": {
-    "_refreshTrigger": 0,
+    "_refreshTrigger": 1,
     "selection": {
       "filter": {
         "distinct": false,
         "enabled": false
       },
       "latestPartitionsN": 1,
-      "maxRecords": 10000,
+      "maxRecords": 1000000,
       "ordering": {
         "rules": [],
         "enabled": false
@@ -145,6 +145,49 @@
         ]
       },
       "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FindReplace",
+      "params": {
+        "output": "previous_response",
+        "mapping": [
+          {
+            "from": "2",
+            "to": "1"
+          },
+          {
+            "from": "3",
+            "to": "1"
+          },
+          {
+            "from": "4",
+            "to": "1"
+          },
+          {
+            "from": "5",
+            "to": "1"
+          },
+          {
+            "from": "6",
+            "to": "1"
+          },
+          {
+            "from": "7",
+            "to": "1"
+          }
+        ],
+        "normalization": "EXACT",
+        "columns": [
+          "previous"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "stopAfterFirstMatch": false,
+        "matching": "FULL_STRING"
+      },
+      "alwaysShowComment": false
     }
   ],
   "maxProcessedMemTableBytes": -1,
@@ -179,6 +222,7 @@
     "campaign": 100,
     "y": 100,
     "job": 106,
+    "previous_response": 143,
     "age": 100,
     "nr.employed": 100
   },
