@@ -72,7 +72,12 @@
   },
   "rank": false,
   "denseRank": false,
-  "orders": [],
+  "orders": [
+    {
+      "column": "proba_yes",
+      "desc": true
+    }
+  ],
   "rowNumber": false,
   "outputColumnNameOverrides": {}
 }
