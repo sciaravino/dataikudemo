@@ -2,21 +2,23 @@ import dataiku
 import pandas as pd
 from flask import request
 
+# Call the dataset from the Flow
+mydataset = dataiku.Dataset("revenue_prediction")
 
-# Example:
-# As the Python webapp backend is a Flask app, refer to the Flask
-# documentation for more information about how to adapt this
-# example to your needs.
-# From JavaScript, you can access the defined endpoints using
-# getWebAppBackendUrl('first_api_call')
+# Load dataframe
+df = mydataset.get_dataframe()
 
-@app.route('/first_api_call')
-def first_call():
-    max_rows = request.args.get('max_rows') if 'max_rows' in request.args else 500
+# Group df by ip_country, aggregated by sum of pages visited and average of prediction
+df = df.groupby("ip_country_code").agg({"pages_visited":"sum","prediction":"mean"}).reset_index()
 
-    mydataset = dataiku.Dataset("REPLACE_WITH_YOUR_DATASET_NAME")
-    mydataset_df = mydataset.get_dataframe(sampling='head', limit=max_rows)
+# Sort values by number of pages visited
+df = df.sort_values("pages_visited", ascending=False)
 
-    # Pandas dataFrames are not directly JSON serializable, use to_json()
-    data = mydataset_df.to_json()
-    return json.dumps({"status": "ok", "data": data})
+# Print statement available in the "Log" tab
+print(df)
+
+@app.route('/send_data')
+def send_data():
+    # Pandas dataframes are not directly JSON serializable, use to_json()
+    data = df.to_json(orient="records")
+    return json.dumps({"status": "ok", "dataset": data})
