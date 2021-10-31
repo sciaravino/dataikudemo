@@ -3,7 +3,7 @@
     "distinct": false,
     "enabled": false
   },
-  "firstRows": 1,
+  "firstRows": 100,
   "keys": [],
   "computedColumns": [],
   "retrievedColumns": [
@@ -60,7 +60,12 @@
   },
   "rank": false,
   "denseRank": false,
-  "orders": [],
+  "orders": [
+    {
+      "column": "proba_yes",
+      "desc": true
+    }
+  ],
   "rowNumber": false,
   "outputColumnNameOverrides": {}
 }
