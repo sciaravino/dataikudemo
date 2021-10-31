@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1635718203057
+    "lastModifiedOn": 1635718206668
   },
   "creationTag": {
     "versionNumber": 0,
@@ -88,11 +88,11 @@
     "columns": [
       {
         "name": "id",
-        "type": "bigint"
+        "type": "string"
       },
       {
         "name": "age",
-        "type": "bigint"
+        "type": "string"
       },
       {
         "name": "job",
@@ -132,19 +132,19 @@
       },
       {
         "name": "duration",
-        "type": "bigint"
+        "type": "string"
       },
       {
         "name": "campaign",
-        "type": "bigint"
+        "type": "string"
       },
       {
         "name": "pdays",
-        "type": "bigint"
+        "type": "string"
       },
       {
         "name": "previous",
-        "type": "bigint"
+        "type": "string"
       },
       {
         "name": "poutcome",
@@ -168,7 +168,7 @@
       },
       {
         "name": "nr.employed",
-        "type": "bigint"
+        "type": "string"
       },
       {
         "name": "ad_response",
