@@ -3,7 +3,7 @@ import pandas as pd
 from flask import request
 
 # Call the dataset from the Flow
-mydataset = dataiku.Dataset("revenue_prediction")
+mydataset = dataiku.Dataset("website_topn")
 
 # Load dataframe
 df = mydataset.get_dataframe()
