@@ -364,17 +364,33 @@
           }
         ],
         "id": "e00sbpc"
+      },
+      {
+        "type": "fit_distribution",
+        "distributions": [
+          {
+            "distribution": {
+              "type": "normal"
+            }
+          }
+        ],
+        "confidenceLevel": 0.95,
+        "column": {
+          "name": "duration",
+          "type": "CONTINUOUS"
+        },
+        "id": "bwW9pin"
       }
     ],
     "id": "iN1Xu26"
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1635713748458
+    "lastModifiedOn": 1635713838891
   },
   "creationTag": {
     "versionNumber": 0,
