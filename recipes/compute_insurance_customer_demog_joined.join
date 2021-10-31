@@ -6,76 +6,111 @@
       "conditionsMode": "AND",
       "type": "LEFT",
       "outerJoinOnTheLeft": true,
-      "on": []
+      "on": [
+        {
+          "column1": {
+            "name": "id",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "id",
+            "table": 1
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        }
+      ]
     }
   ],
   "selectedColumns": [
     {
       "name": "id",
+      "type": "string",
       "table": 0
     },
     {
       "name": "age",
+      "type": "bigint",
       "table": 0
     },
     {
       "name": "job",
+      "type": "string",
       "table": 0
     },
     {
       "name": "marital",
+      "type": "string",
       "table": 0
     },
     {
       "name": "education",
+      "type": "string",
       "table": 0
     },
     {
       "name": "default",
+      "type": "string",
       "table": 1
     },
     {
       "name": "housing",
+      "type": "string",
       "table": 1
     },
     {
       "name": "loan",
+      "type": "string",
       "table": 1
     },
     {
       "name": "contact",
+      "type": "string",
       "table": 1
     },
     {
       "name": "month",
+      "type": "string",
       "table": 1
     },
     {
       "name": "day_of_week",
+      "type": "string",
       "table": 1
     },
     {
       "name": "duration",
+      "type": "string",
       "table": 1
     },
     {
       "name": "campaign",
+      "type": "string",
       "table": 1
     },
     {
       "name": "pdays",
+      "type": "string",
       "table": 1
     },
     {
       "name": "previous",
+      "type": "string",
       "table": 1
     },
     {
       "name": "poutcome",
+      "type": "string",
       "table": 1
     },
     {
       "name": "y",
+      "type": "string",
       "table": 1
     }
   ],
@@ -133,5 +168,83 @@
       "computedColumns": []
     }
   ],
+  "computedColumns": [],
+  "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "age",
+            "type": "bigint"
+          },
+          {
+            "name": "job",
+            "type": "string"
+          },
+          {
+            "name": "marital",
+            "type": "string"
+          },
+          {
+            "name": "education",
+            "type": "string"
+          },
+          {
+            "name": "default",
+            "type": "string"
+          },
+          {
+            "name": "housing",
+            "type": "string"
+          },
+          {
+            "name": "loan",
+            "type": "string"
+          },
+          {
+            "name": "contact",
+            "type": "string"
+          },
+          {
+            "name": "month",
+            "type": "string"
+          },
+          {
+            "name": "day_of_week",
+            "type": "string"
+          },
+          {
+            "name": "duration",
+            "type": "string"
+          },
+          {
+            "name": "campaign",
+            "type": "string"
+          },
+          {
+            "name": "pdays",
+            "type": "string"
+          },
+          {
+            "name": "previous",
+            "type": "string"
+          },
+          {
+            "name": "poutcome",
+            "type": "string"
+          },
+          {
+            "name": "y",
+            "type": "string"
+          }
+        ],
+        "userModified": false
+      }
+    }
+  },
   "enableAutoCastInJoinConditions": false
 }
