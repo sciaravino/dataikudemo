@@ -97,14 +97,6 @@
     {
       "objectId": "insurance_id",
       "objectType": "DATASET"
-    },
-    {
-      "objectId": "insurance_customer_prepared",
-      "objectType": "DATASET"
-    },
-    {
-      "objectId": "compute_marketing_campaigns_prepared_2",
-      "objectType": "RECIPE"
     }
   ],
   "shared": [],
