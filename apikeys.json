@@ -1,7 +1,82 @@
 [
   {
     "execSQLLike": false,
-    "localDatasets": [],
+    "localDatasets": [
+      {
+        "datasets": [
+          "Insurance_testing"
+        ],
+        "privileges": []
+      },
+      {
+        "datasets": [
+          "Insurance_testing_prepared"
+        ],
+        "privileges": []
+      },
+      {
+        "datasets": [
+          "Insurance_testing_prepared_scored"
+        ],
+        "privileges": []
+      },
+      {
+        "datasets": [
+          "Insurance_testing_prepared_segmented"
+        ],
+        "privileges": []
+      },
+      {
+        "datasets": [
+          "Insurance_testing_prepared_segmented_prepared"
+        ],
+        "privileges": []
+      },
+      {
+        "datasets": [
+          "hmeq"
+        ],
+        "privileges": [
+          "READ_DATA"
+        ]
+      },
+      {
+        "datasets": [
+          "marketing_campaigns"
+        ],
+        "privileges": []
+      },
+      {
+        "datasets": [
+          "marketing_campaigns_prepared"
+        ],
+        "privileges": []
+      },
+      {
+        "datasets": [
+          "mobile_app"
+        ],
+        "privileges": []
+      },
+      {
+        "datasets": [
+          "mobile_app_topn"
+        ],
+        "privileges": []
+      },
+      {
+        "datasets": [
+          "website"
+        ],
+        "privileges": []
+      },
+      {
+        "datasets": [
+          "website_topn"
+        ],
+        "privileges": []
+      }
+    ],
     "projectPrivileges": {
       "admin": false,
       "readProjectContent": false,
