@@ -5,7 +5,30 @@
     "columnsSelection": {
       "mode": "ALL"
     },
-    "columnWidthsByName": {},
+    "columnWidthsByName": {
+      "id": 100,
+      "age": 100,
+      "job": 106,
+      "marital": 100,
+      "education": 113,
+      "bad_credit": 100,
+      "home": 100,
+      "auto": 100,
+      "contact": 100,
+      "month": 100,
+      "day_of_week": 100,
+      "duration": 100,
+      "campaign": 100,
+      "pdays": 100,
+      "previous": 100,
+      "poutcome": 106,
+      "emp.var.rate": 105,
+      "cons.price.idx": 120,
+      "cons.conf.idx": 113,
+      "euribor3m": 100,
+      "nr.employed": 100,
+      "ad_response": 100
+    },
     "coloring": {
       "scheme": "MEANING_AND_STATUS",
       "individualColumns": [],
@@ -28,19 +51,21 @@
           "rules": []
         },
         "samplingMethod": "HEAD_SEQUENTIAL",
-        "maxRecords": 10000,
+        "maxRecords": 100000,
         "targetRatio": 0.02,
         "withinFirstN": -1,
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 0
+      "_refreshTrigger": 1
     },
     "vizSampling": {
       "autoRefreshSample": false,
       "_refreshTrigger": 0
     },
-    "exploreUIParams": {},
+    "exploreUIParams": {
+      "autoRefresh": true
+    },
     "globalSearchQuery": "",
     "explorationFilters": [],
     "previewMode": "ALL_ROWS"
