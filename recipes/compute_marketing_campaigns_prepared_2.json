@@ -11,6 +11,9 @@
           "map": {
             "marketing_campaigns": {
               "repartition": 10
+            },
+            "insurance_customer_demog_joined": {
+              "repartition": 10
             }
           }
         },
@@ -72,11 +75,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1635703501203
+    "lastModifiedOn": 1635703512211
   },
   "creationTag": {
     "versionNumber": 0,
