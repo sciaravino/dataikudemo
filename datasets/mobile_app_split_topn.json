@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1635718861882
+    "lastModifiedOn": 1635860466832
   },
   "creationTag": {
     "versionNumber": 0,
@@ -89,90 +89,6 @@
       {
         "name": "id",
         "type": "bigint"
-      },
-      {
-        "name": "age",
-        "type": "bigint"
-      },
-      {
-        "name": "job",
-        "type": "string"
-      },
-      {
-        "name": "marital",
-        "type": "string"
-      },
-      {
-        "name": "education",
-        "type": "string"
-      },
-      {
-        "name": "bad_credit",
-        "type": "boolean"
-      },
-      {
-        "name": "home",
-        "type": "boolean"
-      },
-      {
-        "name": "auto",
-        "type": "boolean"
-      },
-      {
-        "name": "contact",
-        "type": "string"
-      },
-      {
-        "name": "month",
-        "type": "string"
-      },
-      {
-        "name": "day_of_week",
-        "type": "string"
-      },
-      {
-        "name": "duration",
-        "type": "bigint"
-      },
-      {
-        "name": "campaign",
-        "type": "bigint"
-      },
-      {
-        "name": "pdays",
-        "type": "bigint"
-      },
-      {
-        "name": "previous",
-        "type": "bigint"
-      },
-      {
-        "name": "poutcome",
-        "type": "string"
-      },
-      {
-        "name": "emp.var.rate",
-        "type": "double"
-      },
-      {
-        "name": "cons.price.idx",
-        "type": "double"
-      },
-      {
-        "name": "cons.conf.idx",
-        "type": "double"
-      },
-      {
-        "name": "euribor3m",
-        "type": "double"
-      },
-      {
-        "name": "nr.employed",
-        "type": "bigint"
-      },
-      {
-        "name": "ad_response",
-        "type": "boolean"
       },
       {
         "name": "cluster_labels",
