@@ -203,11 +203,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 21,
+    "versionNumber": 22,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1635719607090
+    "lastModifiedOn": 1635822842088
   },
   "creationTag": {
     "versionNumber": 0,
@@ -216,7 +216,7 @@
     },
     "lastModifiedOn": 1635624873730
   },
-  "description": "# Digital Transformation\n\n### Prioritizing revenue growth through customer engagement\n\nDifferent channels:\n  - mobile\n  - website\n  \n  \n  General context :\n* MyInsuranceCo is a traditional InsuranceCo (think AXA, Allstate, State Farm)\n* They are going through a Digital Transformation in their organization and are prioritizing revenue growth through engaging their existing customers and prospects through different channels (ie. mobile app and website) and moving to the cloud (AWS). \n* Started a Data Science practice 2 years ago, 30 people currently - almost all Data Scientist/Statistician/actuarial personas.\n* The Chief DS owns the team. The lines of Business / project manager are the liaisons with the business. Looking for more collaboration across the lines of Business. Marketing is a prioritized line of business given their target focus\n* Many successful prototypes models, but currently only a few projects being deployed\n* IT is recoding everything and it’s taking too long to actually deliver (6 to 9 months).",
+  "description": "# Digital Transformation\n\n### Prioritizing revenue growth through customer engagement\n\nDifferent channels:\n  - mobile\n  - website\n  \n Original Data from Kaggle\n https://www.kaggle.com/volodymyrgavrysh/bank-marketing-campaigns-dataset\n  \n  \n  General context :\n* MyInsuranceCo is a traditional InsuranceCo (think AXA, Allstate, State Farm)\n* They are going through a Digital Transformation in their organization and are prioritizing revenue growth through engaging their existing customers and prospects through different channels (ie. mobile app and website) and moving to the cloud (AWS). \n* Started a Data Science practice 2 years ago, 30 people currently - almost all Data Scientist/Statistician/actuarial personas.\n* The Chief DS owns the team. The lines of Business / project manager are the liaisons with the business. Looking for more collaboration across the lines of Business. Marketing is a prioritized line of business given their target focus\n* Many successful prototypes models, but currently only a few projects being deployed\n* IT is recoding everything and it’s taking too long to actually deliver (6 to 9 months).",
   "shortDesc": "The project *Insurance* was created by Salvatore Ciaravino on Oct 30th 2021",
   "tags": [],
   "customFields": {},
